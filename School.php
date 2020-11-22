@@ -53,7 +53,7 @@ class School extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * 
      * @var string
      */
-    protected $title = '';
+    protected $titles = '';
 
     /**
      * street
@@ -67,7 +67,7 @@ class School extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * 
      * @var string
      */
-    protected $zip = '';
+    protected $zips = '';
 
     /**
      * city

@@ -21,13 +21,6 @@ class School extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 
 
     /**
-     * userid
-     *
-     * @var \Netz\Edvisia\Domain\Model\FrontendUsers
-     */
-    protected $userids;
-
-    /**
      * schoolId
      * 
      * @var string

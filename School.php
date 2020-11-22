@@ -25,14 +25,14 @@ class School extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      *
      * @var \Netz\Edvisia\Domain\Model\FrontendUsers
      */
-    protected $userid;
+    protected $userids;
 
     /**
      * schoolId
      * 
      * @var string
      */
-    protected $schoolId = '';
+    protected $schoolIds = '';
 
     /**
      * lastImport

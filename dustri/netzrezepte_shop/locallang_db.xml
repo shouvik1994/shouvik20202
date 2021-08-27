@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'netzrezepte_shop'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_netzrezepteshop_basic">Basic Shop Info</label>
+			<label index="tx_netzrezepteshop_basic.first_name">First Name</label>
+			<label index="tx_netzrezepteshop_basic.last_name">Last Name</label>
+			<label index="tx_netzrezepteshop_basic.purchase_date">Purchase Date</label>
+			<label index="tx_netzrezepteshop_temp">Temporary cart</label>
+			<label index="tx_netzrezepteshop_temp.product_id">Product Id</label>
+			<label index="tx_netzrezepteshop_temp.quantity">Quantity</label>
+			<label index="tx_netzrezepteshop_temp.unit_price">Unit Price</label>
+			<label index="tx_netzrezepteshop_temp.subscription_type">Subscription Type</label>
+			<label index="tx_netzrezepteshop_temp.session_id">Session Id</label>
+			<label index="tx_netzrezepteshop_temp.product_type">Product Type</label>
+			<label index="tx_netzrezepteshop_temp.iserp">ERP data?</label>
+			<label index="tx_netzrezepteshop_temp.isfreetext">Free text data?</label>
+			<label index="tx_netzrezepteshop_temp.miscellaneous_sale">Miscellaneous sale?</label>
+			
+			<label index="tx_netzrezepteshop_details">Shopping Details</label>
+			<label index="tx_netzrezepteshop_details.info_id">Info Id</label>
+			<label index="tx_netzrezepteshop_details.product_id">Product Id</label>
+			<label index="tx_netzrezepteshop_details.quantity">Quantity</label>
+			<label index="tx_netzrezepteshop_details.unit_price">Unit Price</label>
+			<label index="tx_netzrezepteshop_details.total_price">Total Price</label>
+			<label index="tx_netzrezepteshop_details.productcode">Product Code</label>
+			<label index="tt_content.list_type_pi1">Add to cart</label>
+			<label index="tt_content.list_type_pi2">Cart Main</label>
+			<label index="tt_content.list_type_pi3">Mini cart</label>
+			<label index="tt_content.list_type_pi4">Manage Themengebiete</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_netzrezepteshop_basic">Basic Shop Info</label>
+			<label index="tx_netzrezepteshop_basic.first_name">First Name</label>
+			<label index="tx_netzrezepteshop_basic.last_name">Last Name</label>
+			<label index="tx_netzrezepteshop_basic.purchase_date">Purchase Date</label>
+			<label index="tx_netzrezepteshop_temp">Temporary cart</label>
+			<label index="tx_netzrezepteshop_temp.product_id">Product Id</label>
+			<label index="tx_netzrezepteshop_temp.quantity">Quantity</label>
+			<label index="tx_netzrezepteshop_temp.unit_price">Unit Price</label>
+			<label index="tx_netzrezepteshop_temp.session_id">Session Id</label>
+			<label index="tx_netzrezepteshop_temp.product_type">Product Type</label>
+			<label index="tx_netzrezepteshop_temp.iserp">ERP data?</label>
+			<label index="tx_netzrezepteshop_details">Shopping Details</label>
+			<label index="tx_netzrezepteshop_details.info_id">Info Id</label>
+			<label index="tx_netzrezepteshop_details.product_id">Product Id</label>
+			<label index="tx_netzrezepteshop_details.quantity">Quantity</label>
+			<label index="tx_netzrezepteshop_details.unit_price">Unit Price</label>
+			<label index="tx_netzrezepteshop_details.total_price">Total Price</label>
+			<label index="tx_netzrezepteshop_details.productcode">Product Code</label>
+			<label index="tt_content.list_type_pi1">Add to cart</label>
+			<label index="tt_content.list_type_pi2">Cart Main</label>
+			<label index="tt_content.list_type_pi3">Mini cart</label>
+			<label index="tt_content.list_type_pi4">Manage Themengebiete</label>
+		</languageKey>
+	</data>
+</T3locallang>

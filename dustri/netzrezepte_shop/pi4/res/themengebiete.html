@@ -1,0 +1,42 @@
+<!-- ###PREDEFINED_MESSAGES_MAIN### -->
+<script language="javascript" src="###EXTENSION_PATH###pi4/res/ajax.js" ></script>
+<div id="predefined_messages">
+<div id="status_msg" style="display:block; text-align:center; color:#FF0000;">###SUBMIT_INFO###</div>
+<form name="frmEditMessages" id="frmEditMessages" method="post" action="" onsubmit="return validatedPredefinedMessage('frmEditMessages');">
+<fieldset>
+	<legend>Edit Topic</legend>
+    <p>
+		<label for="uid">Select Topic:</label>
+		<select name="uid" id="uid" onchange="updateMessage(###PAGEID###);">
+			<option value="0"> -- Select Topic -- </option>
+			###MESSAGE_LIST###
+		</select>
+	</p>
+    <p>
+		<label for="edit_title">Topic:</label>
+		<input type="text" name="title" id="edit_title" value="" />
+	</p>
+    <p>
+		<label>&nbsp;</label>
+		<input type="submit" name="btnUpdMessage" value="Update" class="button" />
+		<input type="submit" name="btnDeleteMsg" value="Delete" class="button" /><!-- ID273 -->
+		
+	</p>
+</fieldset>
+</form>
+
+<form name="frmAddMessages" id="frmAddMessages" method="post" action="" onsubmit="return validatedPredefinedMessage('frmAddMessages');">
+<fieldset>
+	<legend>Add Topic</legend>
+    <p>
+		<label for="new_title">Topic:</label>
+		<input type="text" name="title" id="new_title" value="" />
+	</p>
+    <p>
+		<label>&nbsp;</label>
+		<input type="submit" name="btnAddMessage" value="Submit" class="button" />
+	</p>
+</fieldset>
+</form>
+</div>
+<!-- ###PREDEFINED_MESSAGES_MAIN### -->

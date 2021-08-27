@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_netzrezepteshop_pi3&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="subscription">Subscription</label>
+			<label index="button_view_cart">btnViewCart</label>
+			<label index="button_view_cart_disabled">btnViewCartDisabled</label>
+			<label index="header_mini_cart">Shopping Overview</label>
+			<label index="header_type">Type</label>
+			<label index="header_quantity">Qtty</label>
+			<label index="header_price">Price</label>
+			<label index="text_cart_empty">Your basket is empty</label>
+			<label index="cart_shipping_label">Shipping by postal mail</label>
+			<label index="button_view_cart_label">View Cart</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="subscription">Abonnement</label>
+			<label index="button_view_cart">btnViewCartDe</label>
+			<label index="button_view_cart_disabled">btnViewCartDeDisabled</label>
+			<label index="header_mini_cart">Warenkorb Übersicht</label>	
+			<label index="header_type">Typ</label>
+			<label index="header_quantity">Anz</label>
+			<label index="header_price">Preis</label>	
+			<label index="text_cart_empty">Der Warenkorb ist leer</label>	
+			<label index="cart_shipping_label">Shipping by postal mail</label>
+			<label index="button_view_cart_label">Ihr Warenkorb</label>
+		</languageKey>
+	</data>
+</T3locallang>

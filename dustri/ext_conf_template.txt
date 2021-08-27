@@ -1,0 +1,8 @@
+# ***************************************************************************************
+# Extension configuration variables for netzrezepte.shop
+#
+# TYPO3 CVS ID: $Id: ext_conf_template.txt,v 1.1 2008/03/13 00:49:11 mundaun Exp $
+# ***************************************************************************************
+
+#cat=basic; type=int; label= Page Id of Checkout page
+cartCheckoutPage = 14

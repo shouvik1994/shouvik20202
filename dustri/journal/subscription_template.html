@@ -1,0 +1,507 @@
+<!--
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+--------------------------------------- SUBSCRIPTION INTRO --------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-->
+
+<!-- ###SUBSCRIPTION_INTRO### -->
+<h2>###SUBSCRIPTION_HEADING### Subscription Plans</h2>
+###MARKER_SUBSCRIPTION_DETAILS###
+<!-- ###SUBSCRIPTION_INTRO### -->
+
+<!-- ###SUBSCRIPTION_DETAILS### -->
+<div class="panel panel-primary training-subscription">
+    <div class="panel-heading">###SUBSCRIPTION_TYPE###</div>
+    ###SUBSCRIPTION_BOX###
+</div>
+<!-- ###SUBSCRIPTION_DETAILS### -->
+
+<!-- ###SUBSCRIPTION_DETAILS_BOX### -->
+<section>
+        <div class="trainee-name">###NAME###</div>
+        <div class="trainee-fees">###CURRENCY### ###PRICE###</div>
+        <div class="add-trainee-to-cart"><a href="index.php?id=###ADD_CART_PID###&prdId=###PRODUCT_ID###&cat=###CAT###&prdType=###PRODUCT_TYPE###&no_cache=1&refUrl=###RETURN_PATH###" rel="nofollow" class="###DISABLED###">###ADD_CART_BUTTON###</a></div>
+</section>
+<!-- ###SUBSCRIPTION_DETAILS_BOX### -->
+
+<!-- ###EDIT_PROFILE_MAIN### -->
+<script>
+function validate_profile(form){
+	if(IsEmpty(form.first_name)){
+		alert('###first_name_alert_message###');
+		form.first_name.focus();
+		return false;
+	}
+	if(IsEmpty(form.last_name)){
+		alert('###last_name_alert_message###');
+		form.last_name.focus();
+		return false;
+	}
+	if(IsEmpty(form.email)){
+		alert('###email_alert_message###');
+		form.email.focus();
+		return false;
+	}
+	if(IsEmpty(form.username)){
+		alert('###username_alert_message###');
+		form.username.focus();
+		return false;
+	}
+	if(IsEmpty(form.password)){
+		alert('###password_alert_message###');
+		form.password.focus();
+		return false;
+	}
+	if(IsEmpty(form.confirm_password)){
+		alert('###confirm_password_alert_message###');
+		form.confirm_password.focus();
+		return false;
+	}
+	if(form.password.value != form.confirm_password.value ){
+		alert('###same_password_alert_message###');
+		form.confirm_password.focus();
+		return false;
+	}
+	
+
+	if(IsEmpty(form.street)){
+		alert('###street_alert_message###');
+		form.street.focus();
+		return false;
+	}
+
+	if(IsEmpty(form.city)){
+		alert('###city_alert_message###');
+		form.city.focus();
+		return false;
+	}
+	if(IsEmpty(form.country)){
+		alert('###country_alert_message###');
+		form.country.focus();
+		return false;
+	}
+return true;
+}
+
+function trim(s)
+{
+	var l=0; var r=s.length -1;
+	while(l < s.length && s[l] == ' ')
+	{	l++; }
+	while(r > l && s[r] == ' ')
+	{	r-=1;	}
+	return s.substring(l, r+1);
+}
+
+function IsEmpty(aTextField) {
+	var str = trim(aTextField.value); 
+   if ((str.length==0) || (str==null)) {
+      return true;
+   }
+   else { return false; }
+}	
+</script>
+<h2>###HEADER_EDIT_PROFILE###</h2>
+<div class="login-register-wrap">
+<div class="formBox">
+<form name="submitForm" method="post" action="nc/users/edit-profile.html" id="submitForm" onsubmit="return validate_profile(this);">
+<fieldset>
+	<legend>###PERSONAL_INFO###</legend>	
+		###USERNAME_EXISTS###
+		###INVALID_VAT###
+	<p>
+		<label>###GENDER_LABEL###:</label>
+		<select name="gender">
+			###GENDER_LIST###
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="title">###TITLE_LABEL###:</label>
+		<input type="text" name="title" id="title" value="###title###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="first_name" class="required">###FIRST_NAME_LABEL###*:</label>
+		<input type="text" name="first_name" id="first_name" value="###first_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="last_name" class="required">###LAST_NAME_LABEL###*:</label>
+		<input type="text" name="last_name" id="last_name" value="###last_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="email" class="required">Email*:</label>
+		<input type="text" name="email" id="email" value="###email###" />
+	</p><div class="clear"></div>
+</fieldset>
+<fieldset>
+	<legend>Login Details</legend>
+	
+	<p>
+		<label for="username" class="required">Username:</label>
+		<input type="text" name="username" id="username" value="###username###" readonly />
+	</p><div class="clear"></div>
+	<p>
+		<label for="password" class="required">###DESIRED_PASSWORD###*:</label>
+		<input type="password" name="password" id="password" value="###password###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="confirm_password" class="required">###CONFIRM_PASSWORD###*:</label>
+		<input type="password" name="confirm_password" id="confirm_password" value="###password###" />
+	</p><div class="clear"></div>
+</fieldset>
+<fieldset>
+	<legend>###CONTACT_DETAILS###</legend>
+	<p>
+			<label for="street" class="required">###STREET_LABEL###*:</label>
+			<input type="text" name="street" id="street" value="###street###" />
+		</p><div class="clear"></div>
+	<p>
+	<p>
+		<label for="address" class="required sub1234">###ADDRESS_LABEL###:</label>
+		<input type="text" name="address" id="address" value="###address###" />
+	</p><div class="clear"></div>
+	
+		<label for="zip" class="required">###ZIP_CODE_LABEL###:</label>
+		<input type="text" name="zip" id="zip" value="###zip###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="city" class="required">###TOWN_CITY_LABEL###*:</label>
+		<input type="text" name="city" id="city" value="###city###" />
+	</p><div class="clear"></div>
+	<p>
+		<label class="required">###COUNTRY_LABEL###*:</label>
+		<select name="country">
+			###COUNTRY_LIST###
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="telephone">###TELEPHONE_LABEL###:</label>
+		<input type="text" name="telephone" id="telephone" value="###telephone###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="fax">Fax:</label>
+		<input type="text" name="fax" id="fax" value="###fax###" />
+	</p>	<div class="clear"></div>
+</fieldset>
+<fieldset>
+	<legend>###OTHER_DETAILS###</legend>
+	<p>
+		<label for="tx_netzrezepteaddress_ust_id_no">###ENTER_VAT_CODE###:</label>
+		<input type="text" name="tx_netzrezepteaddress_ust_id_no" id="tx_netzrezepteaddress_ust_id_no" value="###tx_netzrezepteaddress_ust_id_no###" />
+		<input type="hidden" name="tx_netzrezepteaddress_ust_id_no_old" value="###tx_netzrezepteaddress_ust_id_no###" />
+
+	</p>	<div class="clear"></div>
+	<!--<p>
+		<label for="captcha">Enter adjoining code:</label>
+		<input type="text" name="tx_captcha_string" id="tx_captcha_string" style="width:80px;" />&nbsp;###CAPTCHA###
+	</p>	<div class="clear"></div>-->
+	<p>
+		<label>&nbsp;</label>
+		<input type="submit" name="registration_cart" value="###BUTTON_SUBMIT###" class="buttonBg" />
+	</p><div class="clear"></div>
+</fieldset>
+</form>
+<div class="clear"></div>
+</div>
+</div>
+<!-- ###EDIT_PROFILE_MAIN### -->
+
+<!-- ###SHOW_EDITED_DATA### -->
+<h2>###YOUR_REGISTRATION_INFORMATION###</h2>
+<div class="formBox">
+<form name="submitForm" method="post" action="" id="submitForm">
+<fieldset>
+	<legend>###REGISTRATION_INFORMATION###</legend>
+	
+	<p style="margin: 0;">
+		<label class="leftAlign">Name:</label>
+		###gender### ###first_name### ###last_name###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="title" class="leftAlign">###TITLE_LABEL###:</label>
+		###title###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="email" class="leftAlign">Email:</label>
+		###email###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="street" class="leftAlign">###ADDRESS_LABEL###:</label>
+		###address###
+	</p><div class="clear"></div>
+
+	<p style="margin: 0;">
+		<label for="street" class="leftAlign">###STREET_LABEL###:</label>
+		###street###
+	</p><div class="clear"></div>
+
+
+	<p style="margin: 0;">
+		<label for="zip" class="leftAlign">###ZIP_CODE_LABEL###:</label>
+		###zip###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="town" class="leftAlign">###TOWN_CITY_LABEL###:</label>
+		###city###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label class="leftAlign">###COUNTRY_LABEL###:</label>
+		###country###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="telephone" class="leftAlign">###TELEPHONE_LABEL###:</label>
+		###telephone###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="fax" class="leftAlign">Fax:</label>
+		###fax###
+	</p>
+	<p>
+		<label>&nbsp;</label>
+		<input type="submit" name="update_s2" value="###BUTTON_SUBMIT###" class="buttonBg" />
+	</p><div class="clear"></div>
+</fieldset>
+</form>
+<div class="clear"></div>
+</div>
+<!-- ###SHOW_EDITED_DATA### -->
+
+<!-- ###SUBSCRIPTION_LIST_OUTER### -->
+<form action="" name="submitForm" enctype="" method="post" onsubmit="return check_expired_magazine_selection()">
+<!-- Segment to show subscription header: BEGIN -->
+<h2>###HEADLINE###</h2>
+<!-- Segment to show subscription header: BEGIN -->
+<!-- Segment to show active subscriptions: BEGIN -->
+<h5>###HEADLINE1###</h5>
+<p style="color:#F02626; font-weight:bold;display:none;" id="journal_selection_error">###HEADLINEERROR###</p>
+<table width="100%" cellspacing="1" class="table table-striped rwd-table subscription-tbl-1">
+<tr>
+	<th>###NUMBER_HEADER###.</th>
+	<th>###JOURNAL_HEADER###</th>
+	<th>###VOLUME_HEADER###</th>
+	<th>###EXPIRY_DATE_HEADER###</th>
+        <th>Renew</th>
+</tr>
+###ACTIVE_MAGAZINES###
+</tr>
+</table>
+<p>###HEADLINE2###</p>
+<!-- Segment to show active subscriptions: END -->
+<br />
+<!-- Segment to show expired subscriptions: BEGIN -->
+<h5>###HEADLINE3###<br />###HEADLINE4###</h5>
+<table width="100%" cellspacing="1" class="table table-striped rwd-table subscription-tbl-2">
+<tr>
+    <th>###NUMBER_HEADER###.</th>
+    <th>###JOURNAL_HEADER###</th>
+    <th>###VOLUME_HEADER###</th>
+    <th>###EXPIRY_DATE_HEADER###</th> 
+    <th>###PRICE_HEADER###(###CURRENCY###) </th>         
+    <th>###RENEW_HEADER###</th>
+</tr>
+###EXPIRED_MAGAZINES###
+</table>	
+<!-- Segment to show expired subscriptions: END -->
+<br />
+<!-- Segment to show other journals: BEGIN -->
+<table width="100%" cellspacing="1" class="table table-striped rwd-table subscription-tbl-3">
+    <h5>###HEADLINE5###<br />###HEADLINE6###</h5>
+<tr>
+	<th>###NUMBER_HEADER###.</th>
+	<th>###JOURNAL_HEADER###</th>
+        <th>###CURRENT_VOLUME_HEADER###</th>
+</tr>
+###NEW_MAGAZINES###
+</table>
+<!-- Segment to show other journals: BEGIN --><br />
+
+	<span style="text-align: center; display: block;"><input type="submit" name="submit_R" value="Submit" class="btn btn-primary" /></span>
+
+</form>
+<form method="post" name="renew_sub_form" id="renew_sub_form">
+	<input type="hidden" name="journal_id" id="journal_id" />
+	<input type="hidden" name="renew_sub" value="1" />	
+</form>
+<script>
+function renewSubscription(journal_id){
+	
+	document.getElementById('journal_id').value=journal_id;
+	document.forms["renew_sub_form"].submit();
+}
+function check_expired_magazine_selection()
+{
+   var flag = 0;
+   var arrMark = document.getElementsByName("renew[]");
+
+   for (var i = 0; i < arrMark.length; i++) {
+	   if(arrMark[i].checked){
+		   flag ++;
+		 }
+   }
+   
+   if (flag == 0) {
+	   document.getElementById('journal_selection_error').style.display = 'block';
+	   return false;
+   }else{
+	   document.getElementById('journal_selection_error').style.display = 'none';
+   }
+   return true;
+}
+</script>
+<!-- ###SUBSCRIPTION_LIST_OUTER### -->
+
+<!-- ###ACTIVE_JOURNALS_INNER### -->
+<tr>
+	<td style="text-align:center;">###SERIAL_NUMBER###.</td>
+	<td>###JOURNAL_NAME###</td>
+	<td style="text-align:center;">###VOLUME_INFO###</td>
+	<td style="text-align:center;">###EXPIRY_DATE###</td>
+	<td style="text-align:center;"><a href="javascript:renewSubscription(###JOURNAL_ID###)" style="font-weight:normal">###RENEW_HEADER###</a></td>
+</tr>
+<!-- ###ACTIVE_JOURNALS_INNER### -->
+
+<!-- ###EXPIRED_JOURNALS_INNER### -->
+<tr>
+	<td style="text-align:center;">###SERIAL_NUMBER###.</td>
+	<td>###JOURNAL_NAME###</td>
+	<td style="text-align:center;">###VOLUME_INFO###</td>
+	<td style="text-align:center;">###EXPIRY_DATE###</td>
+	<td style="text-align:center;">###PRICE_RENEWAL###</td>
+	<td style="text-align:center;"><input type="checkbox" name="renew[]" value="###JOURNAL_ID###" /></td>
+</tr>
+<!-- ###EXPIRED_JOURNALS_INNER### -->
+
+<!-- ###AVAILABLE_JOURNALS_INNER### -->
+<tr>
+	<td style="text-align:center;">###SERIAL_NUMBER###.</td>
+	<td>###JOURNAL_NAME###</td>
+	<td style="text-align:center;">###VOLUME_INFO###</td>
+</tr>
+<!-- ###AVAILABLE_JOURNALS_INNER### -->
+
+<!-- ###MY_INVOICES_OUTER### -->
+<h2>###MY_INVOICES_HEADER###</h2>
+<p>###MESSAGE###</p>
+<table width="100%" cellspacing="1" class="table table-striped">
+<tr style="font-weight:bold;">
+	<td>###NUMBER_HEADLINE###</td>		
+	<td>###ORDER_NUMBER_HEADLINE###</td>
+	<td>###DATE_HEADLINE###</td>
+	<td>###AMOUNT_HEADLINE###</td>
+	<td>&nbsp;</td>
+</tr>
+###INVOICE_DETAILS###
+</table>
+<!-- ###MY_INVOICES_OUTER### -->
+
+<!-- ###MY_INVOICES_INNER### -->
+<tr>
+	<td>###NUMBER###.</td>		
+	<td>###ORDER_NUMBER###</td>
+	<td>###DATE###</td>
+	<td>###AMOUNT###</td>
+	<td>
+		<form method="POST" action="">
+		  <input type="hidden" name="invIpNum" value="###INVOICE_FILE###" />
+		  <input type="submit" name="mode" value="Download" class="btn btn-primary btn-sm" />
+		</form>
+	</td>
+</tr>
+<!-- ###MY_INVOICES_INNER### -->
+
+<!-- ###REGISTRATION_PROFILE_MAIN### -->
+<h2>###HEADER_REGISTRATION_PROFILE###</h2>
+<div class="formBox">
+<form name="submitForm" method="post" action="" id="submitForm">
+<fieldset>
+	<legend>###PERSONAL_INFO###</legend>	
+	<p>
+		<label>###GENDER_LABEL###:</label>
+		<select name="gender">
+			###GENDER_LIST###
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="title">###TITLE_LABEL###:</label>
+		<input type="text" name="title" id="title" value="###title###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="first_name" class="required">###FIRST_NAME_LABEL###:</label>###FIRST_NAME_ERROR###
+		<input type="text" name="first_name" id="first_name" value="###first_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="last_name" class="required">###LAST_NAME_LABEL###:</label>###LAST_NAME_ERROR###
+		<input type="text" name="last_name" id="last_name" value="###last_name###" />
+	</p><div class="clear"></div>
+	
+</fieldset>
+<fieldset>
+	<legend>Login Details</legend>
+	<p>
+		<label for="email" class="required">Email:</label>###EMAIL_ERROR###
+		<input type="text" name="email" id="email" value="###email###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="password" class="required">###DESIRED_PASSWORD###:</label>###PASSWORD_ERROR###
+		<input type="password" name="password" id="password" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="confirm_password" class="required">###CONFIRM_PASSWORD###:</label>###CONFIRM_PASSWORD_ERROR###
+		<input type="password" name="confirm_password" id="confirm_password" />
+	</p><div class="clear"></div>
+</fieldset>
+<fieldset>
+	<legend>###CONTACT_DETAILS###</legend>
+	<p>
+		<label for="address" class="required sub12345">###ADDRESS_LABEL###:</label>###ADDRESS_ERROR###
+		<input type="text" name="address" id="address" value="###address###" />
+	</p><div class="clear"></div>
+
+	<p>
+			<label for="street" class="required">###STREET_LABEL###*:</label>###STREET_ERROR###
+			<input type="text" name="street" id="street" value="###street###" />
+		</p><div class="clear"></div>
+
+	<p>
+		<label for="zip" class="required">###ZIP_CODE_LABEL###:</label>###ZIP_ERROR###
+		<input type="text" name="zip" id="zip" value="###zip###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="city" class="required">###TOWN_CITY_LABEL###:</label>###CITY_ERROR###
+		<input type="text" name="city" id="city" value="###city###" />
+	</p><div class="clear"></div>
+	<p>
+		<label class="required">###COUNTRY_LABEL###:</label>
+		<select name="country">
+			###COUNTRY_LIST###
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="telephone">###TELEPHONE_LABEL###:</label>
+		<input type="text" name="telephone" id="telephone" value="###telephone###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="fax">Fax:</label>
+		<input type="text" name="fax" id="fax" value="###fax###" />
+	</p>	<div class="clear"></div>
+</fieldset>
+<fieldset>
+	<legend>OTHER DETAILS</legend>
+	<p>
+		<label for="tx_netzrezepteaddress_ust_id_no">Enter VAT Code:</label>
+		<input type="text" name="tx_netzrezepteaddress_ust_id_no" id="tx_netzrezepteaddress_ust_id_no" value="###tx_netzrezepteaddress_ust_id_no###" />
+	</p>	<div class="clear"></div>
+	<p>
+		<label for="captcha">Enter adjoining code:</label>
+		<input type="text" name="tx_captcha_string" id="tx_captcha_string" style="width:80px;" />&nbsp;###CAPTCHA###
+	</p>	<div class="clear"></div>
+	<p>
+		<label>&nbsp;</label>
+		<input type="submit" name="registration_user" value="###BUTTON_SUBMIT###" class="buttonBg" />
+	</p><div class="clear"></div>
+</fieldset>
+</form>
+<div class="clear"></div>
+</div>
+<!-- ###REGISTRATION_PROFILE_MAIN### -->

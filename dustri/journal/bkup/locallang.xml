@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_journalsubscription_pi2&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="header_edit_profile">Edit Profile</label>
+			<label index="header_registration_profile">User Registration</label>
+			<label index="registered_user">Registered user</label>
+			<label index="personal_info">Personal Information</label>
+			<label index="contact_details">Contact Details</label>
+			<label index="gender_label">Mr/Ms</label>
+			<label index="gender_3">Please Select</label>
+			<label index="gender_0">Mr.</label>
+			<label index="gender_1">Ms.</label>
+			<label index="first_name_label">First Name</label>
+			<label index="last_name_label">Last Name</label>
+			<label index="title_label">Title</label>
+			<label index="desired_password">Desired Password</label>
+			<label index="confirm_password">Confirm Password</label>
+			<label index="address_label">Address</label>
+			<label index="zip_code_label">Zip Code</label>
+			<label index="town_city_label">Town/City</label>
+			<label index="country_label">Country</label>
+			<label index="street_label">Street</label>
+			<label index="telephone_label">Telephone</label>
+			<label index="button_submit">Submit</label>
+			<label index="your_registration_information">Your Registration information</label>
+			<label index="registration_information">Registration information</label>
+			<label index="update_successful">Update Successful</label>
+			<label index="first_name_alert_message">Please enter first name</label>
+			<label index="last_name_alert_message">Please enter last name</label>
+			<label index="email_alert_message">Please enter email</label>
+			<label index="username_alert_message">Please enter username</label>
+			<label index="password_alert_message">Please enter password</label>
+			<label index="confirm_password_alert_message">Please enter confirm password</label>
+			<label index="same_password_alert_message">Passwords must be same</label>
+			<label index="address_alert_message">Please enter address</label>
+			<label index="city_alert_message">Please enter city</label>
+			<label index="country_alert_message">Please enter country</label>
+			<label index="username_exists_message">Username already exists</label>
+			<label index="other_details">Other Details</label>
+			<label index="enter_vat_code">Valid EU VAT ID</label>
+			<label index="err_invalid_vat_id">This is not a valid EU VAT ID</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="header_edit_profile">Profil bearbeiten</label>
+			<label index="registered_user">Registrierter Nutzer</label>
+			<label index="personal_info">Persönliche Daten</label>
+			<label index="contact_details">Kontakt Details</label>
+			<label index="gender_label">Frau/Mann</label>
+			<label index="gender_3">Bitte wählen</label>
+			<label index="gender_0">Herr.</label>
+			<label index="gender_1">Frau.</label>
+			<label index="first_name_label">Vorname</label>
+			<label index="last_name_label">Name</label>
+			<label index="title_label">Titel</label>
+			<label index="desired_password">Gewünschtes Passwort</label>
+			<label index="confirm_password">Passwort bestätigen</label>
+			<label index="address_label">Strasse</label>
+			<label index="zip_code_label">PLZ</label>
+			<label index="street_label">Straße</label>
+			<label index="town_city_label">Stadt</label>
+			<label index="country_label">land</label>
+			<label index="telephone_label">Telefon</label>
+			<label index="button_submit">Absenden</label>
+			<label index="your_registration_information">Ihre Registrierungs-Informationen</label>
+			<label index="registration_information">Registrierungs-Informationen</label>
+			<label index="update_successful">Update Successful</label>
+			<label index="first_name_alert_message">Bitte geben Sie Ihren Vornamen an</label>			
+			<label index="last_name_alert_message">Bitte geben Sie Ihren Nachnamen ein.</label>
+			<label index="email_alert_message">Bitte geben Sie Ihre E-Mail-Adresse ein</label>
+			<label index="username_alert_message">Bitte geben Sie Ihren Benutzernamen ein</label>
+			<label index="password_alert_message">Bitte geben Sie Ihr Passwort ein</label>						
+			<label index="confirm_password_alert_message">Bitte bestätigen Sie Ihr Passwort</label>
+			<label index="same_password_alert_message">Die Passwörter müssen übereinstimmen</label>
+			<label index="address_alert_message">Bitte geben Sie Ihre Adresse ein</label>
+			<label index="city_alert_message">Bitte geben Sie Ihren Wohnort ein</label>
+			<label index="country_alert_message">Bitte geben Sie das Land ein</label>
+			<label index="username_exists_message">Dieser Benutzername existiert bereits</label>
+			<label index="other_details">Andere Details</label>
+			<label index="enter_vat_code">Gültige europäische MwSt-ID</label>
+			<label index="err_invalid_vat_id">Keine gültige europäische MwSt-ID</label>
+		</languageKey>
+	</data>
+</T3locallang>

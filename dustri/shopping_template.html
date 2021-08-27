@@ -1,0 +1,849 @@
+<!-- ###CART_MAIN### -->
+<h2>###HEADER_SHOPPING_DETAILS###</h2>
+<form method="post" action="index.php?id=14&no_cache=1###LANGUAGE_SETTING###" name="checkout1">
+    
+    <table cellpadding="0" cellspacing="0" border="0" class="table table-striped shopping-details-table rwd-table" style="width: 100%;">
+
+<tr>
+	<th>###HEADER_NO###</th>
+	<th>###HEADER_TITLE###</th>
+	<th>###HEADER_TYPE###</th>
+	<th>###HEADER_QUANTITY###</th>
+	<th>###HEADER_PRICE###</th>
+	<th>###HEADER_DISCOUNT###</th>
+	<th>###HEADER_VAT###</th>
+	<th>###HEADER_TOTAL###</th>
+</tr>
+###CART_INNER###
+<tr  style="display:###SHIPPING_SHOW###" >
+	<td data-th="Shipping by"></td>
+	<td data-th="###HEADER_TITLE###" style="font-weight: bold;">###SHIPPING###</td>
+	<td data-th="###HEADER_TYPE###">-</td>
+	<td data-th="###HEADER_QUANTITY###">-</td>
+	<td data-th="###HEADER_PRICE###"><span>###SHIPPING_PRICE###</span></td>
+	<td data-th="Discount">0.00</td>
+	<td data-th="VAT"><span>###SHIIPING_VAT###</span></td>
+	<td data-th="###HEADER_TOTAL###"><span>###SHIPPING_TOTAL###</span></td>
+</tr>
+<tr>
+	<td colspan="8" style="text-align: right !important;"><span style="font-weight:bold;">###TOTAL_PRICE###</span></td>
+</tr>
+<tr>
+	<td colspan="8" style="text-align:right !important;"><input type="submit" name="submit_1" value="###BUTTON_CONTINUE###" class="buttonBgLong" ###STAGE1SUBMIT_STATUS### /></td>
+</tr>
+</table>
+</form>
+<!-- ###CART_MAIN### -->
+
+
+
+<!-- ###CART_MAIN_INNER### -->
+<tr>
+	<td data-th="###HEADER_NO###">###SERIAL_NO###.</td>
+	<td data-th="###HEADER_TITLE###">###TITLE###</td>
+	<td data-th="###HEADER_TYPE###">###TYPE###</td>
+	<td data-th="###HEADER_QUANTITY###">
+	<span style="width: 25px; float: left; text-align: right; margin-right: 3px;">###QUANTITY###</span>
+	<span style="width: 10px; float: left;">
+	<a href="index.php?id=###ADD_CART_ID###&prodId=###PRODUCT_ID###&cartId=###CART_ID###&qtMode=add&no_cache=1" style="float: left; clear: both; margin-bottom: 2px;"><img src="fileadmin/templates/images/arrowUp.png" border="0" title="Increase quantity" /></a> <a href="index.php?id=###ADD_CART_ID###&prodId=###PRODUCT_ID###&cartId=###CART_ID###&qtMode=rem&no_cache=1" style="float: left; clear: both;"><img src="fileadmin/templates/images/arrowDn.png" border="0" title="Decrease quantity" /></a>
+	</span>
+	</td>
+	<td data-th="###HEADER_PRICE###"><span>###PRICE###</span></td>
+	<td data-th="Discount"><span>###DISCOUNT###</span></td>
+	<td data-th="VAT"><span>###VAT###</span></td>
+	<td data-th="###HEADER_TOTAL###"><span>###TOTAL###</span></td>
+</tr>
+<!-- ###CART_MAIN_INNER### -->
+
+
+
+<!-- ###MINI_BASKET### -->
+<table width="100%" cellpadding="0" cellspacing="0" class="tblShopOv table table-striped">
+<tr>
+	<td colspan="3" class="tblShopOvHead">###HEADER_MINI_CART###</td>
+</tr>
+<tr class="shopOvFieldHead">
+	<td style="border-right: 1px solid #fff;">###HEADER_TYPE###</td>
+	<td style="border-right: 1px solid #fff;" align="center">###HEADER_QUANTITY###</td>
+	<td style="border-right: 1px solid #fff;" align="center">###HEADER_DISCOUNT###</td>
+	<td style="border-right: 1px solid #fff;" align="center">###HEADER_VAT###</td>
+	<td align="center">###HEADER_PRICE###</td>
+</tr>
+###BASKET_INNER###
+###MINI_SHIPPING###
+<tr>
+	<td colspan="5" align="right" class="shopOvTotal">###TOTAL_PRICE###</td>
+</tr>
+<tr>
+	<td colspan="5" style="text-align: center;">
+	<a class="btn btn-primary ###BUTTON_VIEW_CART###" href="###CART_PAGE_LINK###" >###VIEWCARTLABEL###</a>
+	</td>
+</tr>
+
+</table>
+<!-- ###MINI_BASKET### -->
+
+<!-- ###MINIBASKET_SHIPPING### -->
+<tr class="shopOvField">
+	<td colspan="3">###SHIPPING_LABEL###</td>
+	<td>###SHIPPING_VAT###</td>
+	<td style="vertical-align:top; text-align:right;">###SHIPPING_PRICE###</td>
+</tr>
+<!-- ###MINIBASKET_SHIPPING### -->
+
+<!-- ###MINI_BASKET_INNER### -->
+<tr class="shopOvField">
+	<td style="border-right: 1px solid #fff; vertical-align:top;">###PRODUCT_TYPE###</td>
+	<td style="border-right: 1px solid #fff; vertical-align:top;" align="right">###PRODUCT_QUANTITY###</td>
+	<td style="border-right: 1px solid #fff; vertical-align:top;" align="right">###PRODUCT_DISCOUNT###</td>
+	<td style="border-right: 1px solid #fff; vertical-align:top;" align="right">###PRODUCT_VAT###</td>
+	<td style="vertical-align:top; text-align:right;">###PRODUCT_PRICE###</td>
+</tr>
+<!-- ###MINI_BASKET_INNER### -->
+
+
+<!-- ###CHECKOUT_STEP2### -->
+###STEP2###
+<!-- ###CHECKOUT_STEP2### -->
+
+<!-- ###STEP2_OLD### -->
+<h2>###HEADER_EXISTING_USER###</h2>
+###LOGGED_IN_STATUS_SECTION###
+<!-- ###STEP2_OLD### -->
+
+<!-- ###STEP2_NEW### -->
+<script type="text/javascript" language="javascript" src="###EXTENSION_PATH###/res/script.js"></script>
+<h2>###HEADER_EXISTING_USER###</h2>
+###LOGGED_IN_STATUS_SECTION###
+<h2>###HEADER_NEW_USER###</h2>
+<div class="formBox">
+	<form name="submitForm" method="post" action="index.php?id=14&no_cache=1###LANGUAGE_SETTING###" id="submitForm" onsubmit="return validate_checkout2(###LANGUAGE_VAL###);">
+	<fieldset>
+		###ERROR_MESSAGE###
+		<legend>###PERSONAL_INFO###</legend>
+		<p>
+			<label>###GENDER_LABEL###:</label>
+			<select name="gender">
+				<option value="1">###GENDER_1###</option>
+				<option value="0">###GENDER_0###</option>
+			   <option value="2">###GENDER_2###</option>
+			</select>
+		</p><div class="clear"></div>
+		<p>
+			<label for="title">###TITLE_LABEL###:</label>
+			<input type="text" name="title" id="title" value="###title###" />
+		</p><div class="clear"></div>
+		<p>
+			<label for="first_name" class="required">###FIRST_NAME_LABEL###*:</label>
+			<input type="text" name="first_name" id="first_name" value="###first_name###"/>
+		</p><div class="clear"></div>
+		<p>
+			<label for="last_name" class="required">###LAST_NAME_LABEL###*:</label>
+			<input type="text" name="last_name" id="last_name" value="###last_name###" />
+		</p><div class="clear"></div>
+		
+		<p>
+			<label for="email" class="required">Email*:</label>
+			<input type="text" name="email" id="email" value="###email###" />
+		</p><div class="clear"></div>
+	</fieldset>
+	<fieldset>
+		<legend>###LOGIN_DETAILS###</legend>
+		<p>
+			<label for="username" class="required">Username*:</label>
+			<input type="text" name="username" id="username"  value="###username###" />
+		</p><div class="clear"></div>
+
+		<p>
+			<label for="password" class="required">###DESIRED_PASSWORD###*:</label>
+			<input type="password" name="password" id="password" />
+		</p><div class="clear"></div>
+		<p>
+			<label for="confirm_password" class="required">###CONFIRM_PASSWORD###*:</label>
+			<input type="password" name="confirm_password" id="confirm_password" />
+		</p><div class="clear"></div>
+	</fieldset>
+	<fieldset>
+		<legend>###CONTACT_DETAILS###</legend>
+		<p>
+			<label for="street" class="required">###STREET_LABEL###*:</label>
+			<input type="text" name="street" id="street"  value="###street###" />
+		</p><div class="clear"></div>
+		<p>
+			<label for="address" class="required 123">###ADDRESS_LABEL###:</label>
+			<input type="text" name="address" id="address" value="###address###" />
+		</p><div class="clear"></div>
+		
+		<p>
+			<label for="zip" class="required">###ZIP_CODE_LABEL###*:</label>
+			<input type="text" name="zip" id="zip" value="###zip###" />
+		</p><div class="clear"></div>
+		<p>
+			<label for="city" class="required">###TOWN_CITY_LABEL###*:</label>
+			<input type="text" name="city" id="city" value="###city###" />
+		</p><div class="clear"></div>
+		<p>
+			<label class="required">###COUNTRY_LABEL###*:</label>
+			<select name="country">
+				###COUNTRY_LIST###
+			</select>
+		</p><div class="clear"></div>
+		<p>
+			<label for="telephone">###TELEPHONE_LABEL###:</label>
+			<input type="text" name="telephone" id="telephone" value="###telephone###" />
+		</p><div class="clear"></div>
+		<p>
+			<label for="fax">Fax:</label>
+			<input type="text" name="fax" id="fax" value="###fax###" />
+		</p>	<div class="clear"></div>
+	</fieldset>
+	<fieldset> 
+		<legend>###OTHER_DETAILS###</legend>
+		
+		JOURNAL LIST FOR SUBSCRIPTIONS 
+		<p>
+			<label>###ITEM_LABEL###:</label><div class="clear"></div>
+			###ITEM_LIST###
+		</p>
+	
+		<p>
+			<label for="tx_netzrezepteaddress_ust_id_no">###enter_vat_code###:</label>
+			<input type="text" name="tx_netzrezepteaddress_ust_id_no" id="tx_netzrezepteaddress_ust_id_no" />
+		</p>	<div class="clear"></div>
+		<p>
+			<label><input type="checkbox" name="tac" value="Y" /></label>
+			###TERMS_CONDITION_TEXT###
+		</p>	<div class="clear"></div>
+		<p>
+			<label><input type="checkbox" name="prst" value="Y" /></label>
+			###DATA_PRIVACY_TEXT###
+		</p>	<div class="clear"></div>
+		
+		JOURNAL LIST FOR SUBSCRIPTIONS 
+		<p>
+			<label><input type="checkbox" name="newsletter" checked="checked" value="1" /></label>
+			###NEWSLETTER_TEXT###
+		</p>	<div class="clear"></div>
+		<p>
+			<label>&nbsp;</label>
+			<input type="submit" name="registration_cart" value="###BUTTON_SUBMIT###" class="buttonBg" />
+		</p><div class="clear"></div>
+	</fieldset>
+</form>
+<div class="clear"></div>
+</div>
+<!-- ###STEP2_NEW### -->
+
+
+<!-- ###CHECKOUT_STEP3### -->
+<script language="javascript">
+	function showForm(issId){
+		var formBlock=document.getElementById(issId);
+		if(formBlock.style.display=='' || formBlock.style.display=='none'){
+			formBlock.style.display='block';
+		}
+		else {
+			formBlock.style.display='none';
+		}
+	}
+	window.onload = function(e){ 
+		var formBillingBlock=document.getElementById("billing_info");
+		var formShipingBlock=document.getElementById("shipping_info");
+		var diffbilling = document.getElementById("diffbilling").value;
+		var diffshiping = document.getElementById("diffshiping").value;
+		if (diffbilling == "1") {
+	    		formBillingBlock.style.display='block';
+	    		document.getElementsByName('billing')[0].checked = true;
+	    }
+	    if (diffshiping == "1") {
+	    		formShipingBlock.style.display='block';
+	    		document.getElementsByName('shipping')[0].checked = true;
+    		}
+	}
+</script>
+<div style="text-align: center; margin: 10px 0;"><img src="fileadmin/templates/images/###IMAGE_PAY_STAGE2###.png" alt="" /></div>
+<h2>###YOUR_REGISTRATION_INFORMATION###</h2>
+<div class="formBox">
+<form name="submitForm" method="post" action="index.php?id=14&no_cache=1###LANGUAGE_SETTING###" id="submitForm">
+<fieldset>
+	<legend>###REGISTRATION_INFORMATION###</legend>
+
+	<p style="margin: 0;">
+            <label class="leftAlign"><strong>Name:</strong></label>
+		###gender###. ###first_name### ###last_name###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="title" class="leftAlign"><strong>###TITLE_LABEL###:</strong></label>
+		###title###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="email" class="leftAlign"><strong>Email:</strong></label>
+		###email###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="street" class="leftAlign"><strong>###STREET_LABEL###:</strong></label>
+		###street###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="address" class="leftAlign"><strong>###ADDRESS_LABEL###:</strong></label>
+		###address###
+	</p><div class="clear"></div>
+	
+	<p style="margin: 0;">
+		<label for="zip" class="leftAlign"><strong>###ZIP_CODE_LABEL###:</strong></label>
+		###zip###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="town" class="leftAlign"><strong>###TOWN_CITY_LABEL###:</strong></label>
+		###city###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label class="leftAlign"><strong>###COUNTRY_LABEL###:</strong></label>
+		###country###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="telephone" class="leftAlign"><strong>###TELEPHONE_LABEL###:</strong></label>
+		###telephone###
+	</p><div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="fax" class="leftAlign"><strong>Fax:</strong></label>
+		###fax###
+	</p>	<div class="clear"></div>
+	<p style="margin: 0;">
+		<label for="fax" class="leftAlign"><strong>VAT Code:</strong></label>
+		###tx_netzrezepteaddress_ust_id_no###
+	</p>	<div class="clear"></div>
+</fieldset>
+<div style="margin: 5px 0;"><input type="checkbox" name="billing" onclick="showForm('billing_info');" />###BILL_ADDRESS_CHECK###</div>
+<div id="billing_info" style="display:none">
+<!--<fieldset>-->
+	<span style="font-weight: bold; color: #333333; padding-left: 5px;">###BILL_ADDRESS###</span>
+	<p>
+		<label>###GENDER_LABEL###:</label>
+		<select name="billing_gender">
+			<option value="0" ###MR_SELECT###>Mr.</option>
+			<option value="1" ###MRS_SELECT###>Ms.</option>
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_first_name">###FIRST_NAME_LABEL###:</label>
+		<input type="text" name="billing_first_name" id="billing_first_name" value="###billing_first_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_last_name">###LAST_NAME_LABEL###:</label>
+		<input type="text" name="billing_last_name" id="billing_last_name" value="###billing_last_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_title">###TITLE_LABEL###:</label>
+		<input type="text" name="billing_title" id="billing_title" value="###billing_title###" />
+	</p><div class="clear"></div>
+
+	<p>
+		<label for="billing_street">###STREET_LABEL###:</label>
+		<input type="text" name="billing_street" id="billing_street" value="###billing_street###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_address address1234">###ADDRESS_LABEL###:</label>
+		<input type="text" name="billing_address" id="billing_address" value="###billing_address###" />
+	</p><div class="clear"></div>
+
+	
+
+	<p>
+		<label for="billing_zip">###ZIP_CODE_LABEL###:</label>
+		<input type="text" name="billing_zip" id="billing_zip" value="###billing_zip###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_city">###TOWN_CITY_LABEL###:</label>
+		<input type="text" name="billing_city" id="billing_city" value="###billing_city###" />
+	</p><div class="clear"></div>
+	<p>
+		<label>###COUNTRY_LABEL###:</label>
+		<select name="billing_country">
+			###COUNTRY_LIST_BILLING###
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_email">Email:</label>
+		<input type="text" name="billing_email" id="billing_email" value="###billing_email###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_telephone">###TELEPHONE_LABEL###:</label>
+		<input type="text" name="billing_telephone" id="billing_telephone" value="###billing_telephone###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="billing_fax">Fax:</label>
+		<input type="text" name="billing_fax" id="billing_fax" value="###billing_fax###" />
+	</p>	<div class="clear"></div>
+<!--</fieldset>-->
+</div>
+<div class="clear"></div>
+<div style="margin: 5px 0;"><input type="checkbox" name="shipping" onclick="showForm('shipping_info');" />###SHIP_ADDRESS_CHECK###</div>
+<div id="shipping_info" style="display:none">
+	<span style="font-weight: bold; color: #333333; padding-left: 5px;">###SHIP_ADDRESS###</span>
+	<p>
+		<label>###GENDER_LABEL###:</label>
+		<select name="shipping_gender">
+			<option value="0" ###MR_SELECT###>Mr.</option>
+			<option value="1" ###MRS_SELECT###>Ms.</option>
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_first_name">###FIRST_NAME_LABEL###:</label>
+		<input type="text" name="shipping_first_name" id="shipping_first_name" value="###shipping_first_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_last_name">###LAST_NAME_LABEL###:</label>
+		<input type="text" name="shipping_last_name" id="shipping_last_name" value="###shipping_last_name###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_title">###TITLE_LABEL###:</label>
+		<input type="text" name="shipping_title" id="shipping_title" value="###shipping_title###" />
+	</p><div class="clear"></div>
+	
+	<p>
+		<label for="shipping_street">###STREET_LABEL###:</label>
+		<input type="text" name="shipping_street" id="shipping_street" value="###shipping_street###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_address">###ADDRESS_LABEL###:</label>
+		<input type="text" name="shipping_address" id="shipping_address" value="###shipping_address###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_zip">###ZIP_CODE_LABEL###:</label>
+		<input type="text" name="shipping_zip" id="shipping_zip" value="###shipping_zip###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_city">###TOWN_CITY_LABEL###:</label>
+		<input type="text" name="shipping_city" id="shipping_city" value="###shipping_city###" />
+	</p><div class="clear"></div>
+	<p>
+		<label>###COUNTRY_LABEL###:</label>
+		<select name="shipping_country">
+			###COUNTRY_LIST_SHIPPING###
+		</select>
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_email">Email:</label>
+		<input type="text" name="shipping_email" id="shipping_email" value="###shipping_email###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_telephone">###TELEPHONE_LABEL###:</label>
+		<input type="text" name="shipping_telephone" id="shipping_telephone" value="###shipping_telephone###" />
+	</p><div class="clear"></div>
+	<p>
+		<label for="shipping_fax">Fax:</label>
+		<input type="text" name="shipping_fax" id="shipping_fax" value="###shipping_fax###" />
+	</p>	<div class="clear"></div>
+</div>
+<div class="clear"></div>
+	<input type="hidden" name="diffbilling" id="diffbilling" value="###DIFF_BILLING###">
+	<input type="hidden" name="diffshiping" id="diffshiping" value="###DIFF_SHIPPING###">
+	<p style="text-align: left; margin-top:20px">
+	<input type="submit" name="address_cart" value="###BUTTON_CONFIRM###" class="buttonBg" />
+	<strong>&nbsp;&nbsp;<a href="###EDIT_PROFILE_PAGE###">###BUTTON_EDIT_PROFILE###</a></strong>
+	</p><div class="clear">&nbsp;</div>
+</form>
+</div>
+<!-- ###CHECKOUT_STEP3### -->
+
+<!-- ###CHECKOUT_STEP4### -->
+<div style="text-align: center; margin: 10px 0;"><img src="fileadmin/templates/images/###IMAGE_PAY_STAGE3###.png" alt="" /></div>
+<h2>###HEADER_OVERVIEW###</h2>
+<p>
+<strong>###TOTAMT_LABEL###:</strong> ###AMOUNT_TOTAL###<br />
+<strong>###CURRENCY_LABEL###:</strong> <span id="step4Currency">###CURRENCY###</span>
+</p>
+
+
+<div class="row clearfix">
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="panel panel-default">
+<div style="width: 100%;" class="panel-body">
+    <h2 style="margin-top: 0;">###BILL_ADDRESS###</h2>
+<p>
+<strong>Name:</strong> ###billing_gender### ###billing_first_name### ###billing_last_name###<br />
+<strong>###TITLE_LABEL###:</strong> ###billing_title###<br />
+<strong>###STREET_LABEL###:</strong> ###billing_street###<br />
+<strong>###ADDRESS_LABEL###:</strong> ###billing_address###<br />
+<strong>###ZIP_CODE_LABEL###:</strong> ###billing_zip###<br />
+<strong>###TOWN_CITY_LABEL###:</strong> ###billing_city###<br />
+<strong>###COUNTRY_LABEL###:</strong> ###billing_country###<br />
+<strong>Email:</strong> ###billing_email###<br />
+<strong>###TELEPHONE_LABEL###:</strong> ###billing_telephone###<br />
+<strong>Fax:</strong> ###billing_fax###
+</p>
+</div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="panel panel-default">
+<div style="width: 100%;" class="panel-body">
+<h2 style="margin-top: 0;">###SHIP_ADDRESS###</h2>
+<p>
+<strong>Name:</strong> ###shipping_gender### ###shipping_first_name### ###shipping_last_name###<br />
+<strong>###TITLE_LABEL###:</strong> ###shipping_title###<br />
+<strong>###STREET_LABEL###:</strong> ###shipping_street###<br />
+<strong>###ADDRESS_LABEL###:</strong> ###shipping_address###<br />
+<strong>###ZIP_CODE_LABEL###:</strong> ###shipping_zip###<br />
+<strong>###TOWN_CITY_LABEL###:</strong> ###shipping_city###<br />
+<strong>###COUNTRY_LABEL###:</strong> ###shipping_country###<br />
+<strong>Email:</strong> ###shipping_email###<br />
+<strong>###TELEPHONE_LABEL###:</strong> ###shipping_telephone###<br />
+<strong>Fax:</strong> ###shipping_fax###
+</p>
+</div>
+</div>
+    </div>
+</div>
+
+
+<div class="clear">&nbsp;</div>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+	<h2 style="margin-top: 0;">###PAYOPT_LABEL###</h2>
+        
+         <div class="row clearfix">
+<!-- site accordion -->
+                                                    
+        <div class="site-accordion clearfix">
+            <div class="accordion-panel-wrap clearfix">
+                
+                <div class="panel-group">
+                    
+                    <div class="panel accordion-container">
+                        <div class="panel-heading entry" data-toggle="collapse">
+                            <input type="image" src="fileadmin/templates/images/paypal.png" width="120"  />
+                        </div>
+                        <div class="panel-collapse collapse">
+                            <div class="panel-body entry">
+                            	<p>###PAYPAL_PRESUBMIT_TEXT###</p>
+
+
+									<form action="" method="post" class="pull-text-right">
+									<input type="hidden" name="item_name" value="Dustri Item">
+									<input type="hidden" name="item_number" value="1">
+									<input type="hidden" name="amount" value="###AMOUNT_TOTAL_PAYPAL###">
+									<input type="hidden" name="currency_code" value="###CURRENCY###">
+									<input type="hidden" name="custom" value="###purchase_sess_id###,###ses_userid###">
+									<input type="hidden" name="first_name" value="###billing_first_name###">
+									<input type="hidden" name="last_name" value="###billing_last_name###">
+									<input type="hidden" name="addr_name" value="###billing_first_name### ###billing_last_name###">
+									<input type="hidden" name="addr_street" value="###billing_address###">
+									<input type="hidden" name="addr_city" value="###billing_city###">
+									<input type="hidden" name="addr_zip" value="###billing_zip###">
+									<input type="hidden" name="addr_email" value="###billing_email###">
+									<input type="hidden" name="addr_country" value="###billing_country_code###">
+									<input type="hidden" name="express_checkout" value="1" />
+									<input type="image" src="fileadmin/templates/images/express_checkout.png" width="120" />	
+									</form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel accordion-container">
+                        <div class="panel-heading entry visa-heading" data-toggle="collapse">
+                            <div>###CARD_PAYMENT_LABEL###</div> <div><img src="fileadmin/templates/images/logo_visa.jpg" title="Visa" alt="Visa" />&nbsp;&nbsp;
+	<img src="fileadmin/templates/images/logo_mastercard.jpg" title="Master Card" alt="Master Card" />&nbsp;&nbsp;
+				<img src="fileadmin/templates/images/logo_american-express.jpg" title="American Express" alt="American Express" />
+				</div>
+                        </div>
+                        <div class="panel-collapse collapse">
+                            <div class="panel-body entry">
+                            	<p>###IPAYMENT_PRESUBMIT_TEXT###</p>
+
+
+                            	<form action="###iPaymentURL###" name="pay_for_article" method="post" enctype="multipart/form-data"  class="pull-text-right">
+		<input type="hidden" name="trxuser_id" value="###iPaymentTrxuserId###">
+		<input type="hidden" name="trxpassword" value="###iPaymentPassword###">
+		<input type="hidden" name="addr_name" value="###billing_first_name### ###billing_last_name###">
+		<input type="hidden" name="addr_street" value="###billing_address###">
+		<input type="hidden" name="addr_city" value="###billing_city###">
+		<input type="hidden" name="addr_zip" value="###billing_zip###">
+		<input type="hidden" name="addr_email" value="###billing_email###">
+		<input type="hidden" name="trx_amount" value="###AMOUNT_TOTAL_IPAYMENT###" />
+		<input type="hidden" name="trx_currency" value="###CURRENCY###">
+		<input type="hidden" name="redirect_url" value="###REDIRECT_FROM_IPAYMENT_URL###" />
+		<input type="hidden" name="redirect_action" value="post">
+		<input type="hidden" name="error_lang" value="en">
+				<input type="hidden" name="purchase_sess_id" value="###purchase_sess_id###">
+				<input type="hidden" name="ses_userid" value="###ses_userid###">
+		<input type="hidden" name="hidden_trigger_url" value="###HIDDEN_TRIGGER_URL###">
+		<input type="image" src="fileadmin/templates/images/ipayment.jpg" style="margin-top: 5px;" />
+	</form>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel accordion-container">
+                        <div class="panel-heading entry visa-heading" data-toggle="collapse">
+                            <div>###OFFLINEPAY_LABEL###</div>
+                        </div>
+                        <div class="panel-collapse collapse">
+                            <div class="panel-body entry">
+                                <p>###MANUALPAYMENT_PRESUBMIT_TEXT###</p>
+                            	<form name="manualPayment" action="index.php?id=14&no_cache=1&L=###LANG###" method="post" class="pull-text-right">
+								<input type="hidden" name="trx_amount" value="###MANUAL_AMOUNT_TOTAL###" />
+								<input type="hidden" name="trx_currency" value="###CURRENCY###">
+								<input type="submit" name="submit_order" value="###PAYMENT_BUTTON###" class="buttonBgLong" style="margin: 5px 0;" />
+								</form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+     <!-- site accordion -->
+</div> 
+
+    </div>    
+</div>
+
+<div class="clear"></div>
+<script>
+$(document).ready(function(){
+    var newCurrency = $("#step4Currency").text();
+    $("#miniCartCurrency").html(newCurrency);
+
+
+
+
+		jQuery('.panel-group')
+		.on('show.bs.collapse', function(e) {
+		jQuery(e.target).prev('.panel-heading').addClass('active');
+		})
+		.on('hide.bs.collapse', function(e) {
+		jQuery(e.target).prev('.panel-heading').removeClass('active');
+		});
+
+
+		var AccordionCount = 1;
+		jQuery('.panel-group').each(function() {
+		jQuery(this).attr('id', 'accordion' + AccordionCount);
+		AccordionCount++;
+		});
+
+		var CollapsePanel = 1;
+		jQuery('.panel-collapse').each(function() {
+		jQuery(this).attr('id', 'collapse' + CollapsePanel);
+		CollapsePanel++;
+		});
+
+
+		jQuery('.accordion-container').each(function(){
+		var COLLAPSEID = jQuery(this).find('.panel-collapse').attr('id');
+		jQuery(this).find('.panel-heading').attr('data-target', '#'+COLLAPSEID);
+		});
+
+		jQuery('.panel-group').each(function(){
+		var PANELGROUPID = jQuery(this).attr('id');
+		jQuery(this).find('.panel-heading').attr('data-parent', '#'+PANELGROUPID);
+		});
+
+
+
+
+});
+</script>
+<!-- ###CHECKOUT_STEP4### -->
+
+<!-- ###CHECKOUT_COMPLETE### -->
+<div style="text-align: center; margin: 10px 0;"><img src="fileadmin/templates/images/###IMAGE_PAY_STAGE5###.png" alt="" /></div>
+<h2>###CHECKOUT_HEADER###</h2>
+<div>
+<p>###CHECKOUT_THANKS_MESSAGE###</p>
+<p>###CHECKOUT_LINE1###</p>
+<p>
+	<strong>###CHECKOUT_HEADLINE_ORDER_DETAILS###</strong><br />
+		###CHECKOUT_INVOICE_NUMBER###<br />
+		###CHECKOUT_CUSTOMER_NUMBER###<br />
+		###CHECKOUT_ORDER_DATE###
+</p>
+<p>
+	<strong>###CHECKOUT_HEADLINE_CONTACT_OPT###</strong><br />
+		Tel. : ###CHECKOUT_CONTACT_TEL_NO###<br />
+		Email: ###CHECKOUT_CONTACT_EMAIL###
+</p>
+</div>
+###PURCHASE_OPTIONS###
+###DOWNLOAD_INVOICE###
+<!-- ###CHECKOUT_COMPLETE### -->
+
+<!-- ###MANUAL_PAYMENT_COMPLETE### -->
+<div style="text-align: center; margin: 10px 0;"><img src="fileadmin/templates/images/###IMAGE_PAY_STAGE5###.png" alt="" /></div>
+<h2>###MANUAL_PAYMENT_HEADER###</h2>
+<p>Thank you for your order.<br>Include your order Id - <strong>###BASIC_ID###</strong>  for your payment.</p>
+<p> Download your invoice: <a href="fileadmin/proforma_invoices/###INVOICE_FILE###" target="_blank">###INVOICE_FILE###</a></p>
+<!-- ###MANUAL_PAYMENT_COMPLETE### -->
+
+<!-- ###LOGIN_FORM### -->
+<div class="formBox">
+###LOGIN_ERROR_MESSAGE###
+<form id="submitFormLogin" name="submitFormLogin" method="post" action="index.php?id=14&no_cache=1###LANGUAGE_SETTING###">
+<fieldset>
+	<legend>###REGISTERED_USER###</legend>
+	<p>
+		<label class="required">###USERNAME_LABEL###:</label>
+		<input type="text" name="username" />
+	</p><div class="clear"></div>
+	<p>
+		<label class="required">###PASSWORD_LABEL###:</label>
+		<input type="password" name="password"  />
+	</p><div class="clear"></div>
+	<p>
+		<label>&nbsp;</label>
+		<input type="submit" name="login_cart" value="###LOGIN_BUTTON_LABEL###" class="buttonBg" />
+	</p>
+</fieldset>
+</form>
+</div>
+<!-- ###LOGIN_FORM### -->
+
+<!-- ###LOGGED_IN_FORM### -->
+<div class="formBox">
+<form id="submitFormLogin" name="submitFormLogin" method="post" action="index.php?id=14&no_cache=1###LANGUAGE_SETTING###">
+<fieldset>
+	<legend>###REGISTERED_USER###</legend>
+	<p>
+		###LOGGED_IN_MESSAGE###: ###LOGGED_IN_USERNAME###
+	</p><div class="clear"></div>
+	<p>
+		<ul>
+			<li>###LOGGED_IN_SUB_MESSAGE1###</li>
+			<li>###LOGGED_IN_SUB_MESSAGE2###</li>
+		</ul>
+	</p><div class="clear"></div>
+	<p>
+		<input type="hidden" name="preLogin" value="1" />
+		<input type="submit" name="login_cart" value="###button_continue###" class="buttonBg" />
+	</p>
+</fieldset>
+</form>
+</div>
+<!-- ###LOGGED_IN_FORM### -->
+
+<!-- ###INVOICE_DOWNLOAD### -->
+<div>
+<h2>###DOWNLOAD_INVOICE###</h2>
+<p>
+###DOWNLOAD_INVOICE_TEXT###:<br />
+<a href="###INVOICE_FILE###" target="_blank" style="color:#FFA500; text-decoration:underline;">###DOWNLOAD_INVOICE###</a>
+</p>
+</div>
+<!-- ###INVOICE_DOWNLOAD### -->
+
+<!-- ###ARTICLE_DOWNLOAD### -->
+<div>
+<h2>Your digital article</h2>
+
+<p>
+<strong>###ARTICLE_DOWNLOAD_TITLE###.</strong><br />Click on the link below to download your article:<br />
+<a href="index.php?id=###PAGE_ID###&articleId=###ARTICLE_DOWNLOAD_ID###&alt_lang=###ALTERNATE_LANG_DL###&no_cache=1" target="_blank" style="color:#FFA500; text-decoration:underline;">Download Article</a>
+</p>
+
+</div>
+<!-- ###ARTICLE_DOWNLOAD### -->
+
+<!-- ###ISSUE_PURCHASE### -->
+<div>
+<h2>Your issue</h2>
+
+<p>
+<strong>###ISSUE_TITLE###.</strong><br />
+The above issue will be soon dispatched to your shipping address
+</p>
+
+</div>
+<!-- ###ISSUE_PURCHASE### -->
+
+<!-- ###VOLUME_PURCHASE### -->
+<div>
+<h2>Your volume</h2>
+
+<p>
+<strong>###VOLUME_TITLE###.</strong><br />
+The above volume will be soon dispatched to your shipping address
+</p>
+
+</div>
+<!-- ###VOLUME_PURCHASE### -->
+
+<!-- ###SUBSCRIBED_JOURNAL### -->
+<div>
+<h2>Online Subscription</h2>
+
+<p>
+<strong>###SUBSCRIPTION_TITLE###.</strong><br />
+Your access data:<br />
+Username: ###ACCESS_USERNAME###<br />
+Password: ###ACCESS_PASSWORD###
+</p>
+
+</div>
+<!-- ###SUBSCRIBED_JOURNAL### -->
+
+<!-- ###ONLINE_BOOK_PURCHASE### -->
+<div>
+<h2>Your Book</h2>
+<p>
+<strong>###BOOK_TITLE###</strong><br />
+The above book will be soon dispatched to your shipping address
+</p>
+</div>
+<!-- ###ONLINE_BOOK_PURCHASE### -->
+
+<!-- ###ONLINE_BOOK_OTHER_PUBLISHERS### -->
+<div>
+<h2>Your Book</h2>
+<p>
+<strong>###OTHER_BOOK_TITLE###</strong><br />
+The above book will be soon dispatched to your shipping address
+</p>
+</div>
+<!-- ###ONLINE_BOOK_OTHER_PUBLISHERS### -->
+
+<!-- ###ONLINE_BOOK_ARTICLE### -->
+<div>
+<h2>Your Book Article</h2>
+<p>
+<strong>###BOOK_ARTICLE###</strong><br />Click on the link below to download your article:<br />
+<a href="index.php?id=###PAGE_ID###&articleId=###BOOK_ARTICLE_DOWNLOAD_ID###&no_cache=1" target="_blank">Click here to download</a>
+</p>
+</div>
+<!-- ###ONLINE_BOOK_ARTICLE### -->
+
+<!-- ###ONLINE_FORTSETZUNGSWERK### -->
+<div>
+<h2>Your Fortsetzungswerk</h2>
+<p>
+<strong>###FORTSETZUNGSWERK###</strong><br />
+The above Fortsetzungswerk will be soon dispatched to your shipping address
+</p>
+</div>
+<!-- ###ONLINE_FORTSETZUNGSWERK### -->
+
+<!-- ###ONLINE_OTHERS### -->
+<div>
+<h2>Others</h2>
+<p>
+<strong>###OTHERS###</strong><br />
+The above things will be soon dispatched to your shipping address
+</p>
+</div>
+<!-- ###ONLINE_OTHERS### -->
+
+<!-- ###DUSTRI_EBOOK### -->
+<div>
+<h2>Your eBook</h2>
+<p>
+<strong>###BOOK_TITLE###</strong><br />Click on the link below to download your ebook:<br />
+<a href="index.php?id=###PAGE_ID###&ebookId=###BOOK_ARTICLE_DOWNLOAD_ID###&no_cache=1&ebook=1" target="_blank">Click here to download</a>
+</p>
+</div>
+<!-- ###DUSTRI_EBOOK### -->

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_netzrezepteshop_pi2&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="subscription">Subscription</label>
+			<label index="shopping_details">Shopping Details</label>
+			<label index="no">No.</label>
+			<label index="title">Title</label>
+			<label index="type">Type</label>
+			<label index="quantity">Quantity</label>
+			<label index="price">Price</label>
+			<label index="shipping">Shipping</label>
+			<label index="total">Total</label>
+			<label index="net_total">Gross Total</label>
+			<label index="button_continue">Continue</label>
+			<label index="image_pay_stage1">payStage1</label>
+			<label index="image_pay_stage2">payStage2</label>
+			<label index="image_pay_stage3">payStage3</label>
+			<label index="image_pay_stage4">payStage4</label>
+			<label index="image_pay_stage5">payStage5</label>
+			<label index="header_existing_user">I am an existing user</label>
+			<label index="header_new_user">I am a new user</label>
+			<label index="registered_user">Registered user</label>
+			<label index="personal_info">Personal Information</label>
+			<label index="contact_details">Contact Details</label>
+			<label index="username_label">Username</label>
+			<label index="password_label">Password</label>
+			<label index="LOGIN_BUTTON_LABEL">Login</label>
+			<label index="gender_label">Mr/Ms</label>
+			<label index="gender_3">Please Select</label>
+			<label index="gender_0">Mr.</label>
+			<label index="gender_1">Ms.</label>
+			<label index="gender_2">Diverse.</label>
+			<label index="first_name_label">First Name</label>
+			<label index="last_name_label">Last Name</label>
+			<label index="title_label">Title</label>
+			<label index="desired_password">Desired Password</label>
+			<label index="confirm_password">Confirm Password</label>
+			<label index="address_label">Additional Address Information</label>
+			<label index="street_label">Street</label>
+			<label index="zip_code_label">Zip Code</label>
+			<label index="town_city_label">Town/City</label>
+			<label index="country_label">Country</label>
+			<label index="telephone_label">Telephone</label>
+			<label index="item_label">My topics of interest</label>
+			<label index="button_submit">Submit</label>
+			<label index="your_registration_information">Your Registration information</label>
+			<label index="registration_information">Registration information</label>
+			<label index="bill_address">Billing Address</label>
+			<label index="ship_address">Shipping Address</label>
+			<label index="bill_address_check">My billing address is different from registration address</label>
+			<label index="ship_address_check">My shipping address is different from registration address</label>
+			<label index="button_confirm">Confirm</label>
+			<label index="button_edit_profile">Edit Profile</label>
+			<label index="totamt_label">Total Amount</label>
+			<label index="currency_label">Currency</label>
+			<label index="payopt_label">Payment Options</label>
+			<label index="onlinepay_label">Online Payment</label>
+			<label index="offlinepay_label">Offline Payment</label>
+			<label index="ipayment_presubmit_text">Please click on the IPayment logo below to continue with the process</label>
+			<label index="manualpayment_presubmit_text">OFFLINE BEZAHLUNG MEANS THAT You can pay the money by cheque/draft.&lt;br&gt;&lt;br&gt;In that case, please remember to write your correct order number as provided in the next screen within your order form.&lt;br&gt;&lt;br&gt;IN THE NEXT STEP YOU CAN DOWNLOAD AND PRINT OUT YOUR INVOICE. THEREAFTER PLEASE SEND PAYMENT TO THE ISSUER OF THE INVOICE.&lt;br&gt;&lt;br&gt;Delivery takes place after receipt of payment.</label>
+			<label index="header_overview">Overview</label>
+			<label index="manualpayment_button_text">Manual Payment</label>
+			<label index="CHECKOUT_HEADER">TRANSACTION SUCCESSFUL</label>
+			<label index="CHECKOUT_THANKS_MESSAGE">Thank you for your order with Dustri-Verlag.</label>
+			<label index="CHECKOUT_LINE1">A copy of your invoice has been sent to the email address %s</label>
+			<label index="CHECKOUT_HEADLINE_ORDER_DETAILS">Order Details:</label>
+			<label index="CHECKOUT_INVOICE_NUMBER">Invoice Number: </label>
+			<label index="CHECKOUT_CUSTOMER_NUMBER">Customer Number: </label>
+			<label index="CHECKOUT_ORDER_DATE">Order Date: </label>
+			<label index="CHECKOUT_HEADLINE_CONTACT_OPT">In case of any problem, kindly contact us through the following: </label>
+			<label index="manual_header">MANUAL TRANSACTION SUCCESSFUL</label>
+			<label index="LOGGED_IN_MESSAGE">You are currently logged in as</label>
+			<label index="PASSWORD_FORGOTTON">Forgot your password?</label>
+			<label index="SEND_PASSWORD">Send Password</label>
+			<label index="PASSWORD_FORGOTTON_MESSAGE">Please enter the email address by which you registered your user account. Then press "Send password" and your password will immediately be emailed to you. Make sure to spell your email address correctly.</label>
+			<label index="PASSWORD_FORGOTTON_RESULT_MESSAGE">Your password has now been sent to the email address</label>
+			<label index="LINK_TO_LOGIN">Return to login form</label>
+			<label index="PASSWORD_FORGOTTEN_ERROR_MSG">You are not registered!</label>
+			<label index="FORGOT_PSWD_SUBJECT">Your Password</label>
+			<label index="LOGGED_IN_SUB_MESSAGE1">Please logout from the main menu and login again if you want to change user.</label>
+			<label index="LOGGED_IN_SUB_MESSAGE2">Please fill in the form below if you want to register as a new user.</label>
+			<label index="err_invalid_login">Invalid login. Please try again.</label>
+			<label index="err_invalid_email">The email address provided is invalid!</label>
+			<label index="err_invalid_vat_id">This is not a valid EU VAT ID</label>
+			<label index="err_user_exists">Your username is already registered!</label>
+			
+			<label index="proforma_invoice">Proforma Invoice</label>
+			<label index="invoice">Invoice</label>
+			<label index="date">Date</label>
+			<label index="customer_id">Customer Id:</label>
+			<label index="customer_copy">Customers copy</label>
+			<label index="page">Page</label>
+			<label index="qtty">Qtty</label>
+			<label index="item_itle">Title</label>
+			<label index="item_single_price">Single &lt;br &#47;&gt; Price</label>
+			<label index="item_discount">Discount</label>
+			<label index="vat_incl">VAT &lt;br &#47;&gt; incl.</label>
+			<label index="item_total_price">Total &lt;br &#47;&gt; Price</label> 
+			<label index="customer_vat_id">Customer VAT Id.</label>
+			<label index="cash_discount">Cash discount</label>
+			<label index="vat_amount">VAT amount</label>
+			<label index="vat_total">VAT (total)</label>
+			<label index="total_amount">Total Amount</label>		
+			<label index="delivery_message">Date of performance is date of delivery (except subscriptions, please check date of performance above)</label>
+			<label index="bank_account">Bank account</label>
+			<label index="account_number">Account-No</label>
+			 <label index="dustri_us_address">&lt;u&gt;US-Office &lt;&#47;u&gt;: Dustri-Verlag Inc., P.O.Box 561205, Rockledge, FL 32956-1205, USA, Phone +1-321-594-4340, Fax +1-321-414-0219 &lt;br&#47;&gt; Rockledge, FL 32956-1205, USA, Phone +1-321-594-4340, Fax +1-321-414-0219, Email: info@dustri.com</label>				
+			<label index="dustri_german_address">&lt;u&gt;Dustri-Verlag Dr. Karl Feistle GmbH - Co. KG&lt;&#47;u&gt;, VAT-No. DE 169 262 194, Court of registry: Local court of Munich, Germany, HRA 81557, &lt;br&#47;&gt; CEO: Joerg Feistle, Frank Feistle</label>
+			<label index="cart_shipping_label">Shipping by postal mail</label>
+			<label index="download_article">Download Article</label>
+			<label index="download_invoice">Download Invoice</label>
+			<label index="download_invoice_text">Click on the link below to download your invoice</label>
+			<label index="login_details">Login Details</label>
+			<label index="contact_details">Contact Details</label>
+			<label index="other_details">Other Details</label>
+			<label index="enter_vat_code">Valid EU VAT ID</label>
+			<label index="doubleoptmsg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non magna aliquam, dignissim quam et, aliquet mi. Aenean non ipsum libero. Duis iaculis dictum lacus, vel rutrum tellus fermentum ac. Quisque imperdiet erat massa, sit amet iaculis nibh vulputate vitae. Suspendisse in lorem nulla. Quisque enim dui, semper ut rutrum sed, volutpat sed sapien. Proin pretium ornare aliquam. Proin vulputate velit eget turpis efficitur feugiat.</label>
+			<label index="doubleopt_email_subject">Dustri: Please verify your email.</label>
+			<label index="doubleopt_email_body">
+				<![CDATA[
+				<p>
+					Hello ###NAME###,
+    			</p>
+    <p>
+    Click this link to confirm your request to join the list:
+	</p>
+
+    ###VERIFY_LINK###
+    <p>
+    Clicking the link above will confirm your email address and allow you to receive the information you requested. If you cannot click on the link, please copy and paste it into your web browse.
+	</p>
+	<p>
+    If you did not request to be on this list, please ignore this message. We confirm addresses prior to adding them to our list to prevent forged or unwanted sign-ups.
+	</p>
+	<p>
+    Thank you,
+	</p>
+    
+  				]]>
+
+			</label>
+			<label index="emailvarified_msg">
+				<![CDATA[
+				<p>Thanks for verifing your email. Please click the below link to login.</p>
+				###LOGIN_LINK###
+			]]>
+			</label>
+			<label index="login_link_text">Click here for login</label>
+			<label index="email_confirm_subject">New Registration for Newsletter</label>
+			<label index="email_confirm_body">
+				<![CDATA[
+				<p>Hallo,</p>
+				<p>There is a new resigntration for newsletter subscriptions. Details are the following:</p>
+				###USER_DATA###
+				<p>Regards,<br/>
+					Dustri Team
+				</p>
+				]]>
+			</label>
+			<label index="name_label">Name</label>
+			<label index="email_label">Email</label>
+			<label index="newsletter_text">Sign up for the Dustri newsletter</label>
+			<label index="vat_header">VAT</label>
+			<label index="discount_header">Discount</label>
+			<label index="paypal_presubmit_text">Please click on the Paypal logo below to continue with the process</label>
+			<label index="card_payment_label">Card Payment</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="subscription">Abonnement</label>
+			<label index="shopping_details">Details</label>
+			<label index="no">Nummer</label>
+			<label index="title">Titel</label>
+			<label index="type">Typ</label>
+			<label index="quantity">Anzahl</label>
+			<label index="price">Preis</label>
+			<label index="shipping">Lieferung</label>
+			<label index="total">Gesamt</label>
+			<label index="net_total">Brutto Betrag</label>
+			<label index="button_continue">Bestätigen und weiter</label>
+			<label index="image_pay_stage1">payStage1De</label>
+			<label index="image_pay_stage2">payStage2De</label>
+			<label index="image_pay_stage3">payStage3De</label>
+			<label index="image_pay_stage4">payStage4De</label>
+			<label index="image_pay_stage5">payStage5De</label>
+			<label index="header_existing_user">Ich habe bereits einen Account</label>
+			<label index="header_new_user">Ich bin ein neuer Kunde</label>
+			<label index="registered_user">Registrierter Nutzer</label>
+			<label index="personal_info">Persönliche Daten</label>
+			<label index="contact_details">Kontakt Details</label>
+			<label index="username_label">Nutzername</label>
+			<label index="password_label">Passwort</label>
+			<label index="LOGIN_BUTTON_LABEL">Anmelden</label>
+			<label index="gender_label">Anrede</label>
+			<label index="gender_3">Bitte wählen</label>
+			<label index="gender_1">Frau</label>
+			<label index="gender_0">Herr</label>
+			<label index="gender_2">Divers</label>
+
+			<label index="first_name_label">Vorname</label>
+			<label index="last_name_label">Name</label>
+			<label index="title_label">Titel</label>
+			<label index="desired_password">Gewünschtes Passwort</label>
+			<label index="confirm_password">Passwort bestätigen</label>
+			<label index="address_label">Adresszusatz</label>
+			<label index="street_label">Straße</label>
+			<label index="zip_code_label">PLZ</label>
+			<label index="town_city_label">Stadt</label>
+			<label index="country_label">Land</label>
+			<label index="telephone_label">Telefon</label>
+			<label index="item_label">Themengebiet</label>
+			<label index="button_submit">Absenden</label>
+			<label index="your_registration_information">Ihre Registrierungs-Informationen</label>
+			<label index="registration_information">Registrierungs-Informationen</label>
+			<label index="bill_address">Rechnungsaddresse</label>
+			<label index="ship_address">Lieferanschrift</label>
+			<label index="bill_address_check">Meine Rechnungsaddresse unterscheidet sich von meiner Registrierungsaddresse</label>
+			<label index="ship_address_check">Meine Lieferanschrift unterscheidet sich von meiner Registrierungsaddresse</label>
+			<label index="button_confirm">Bestätigen</label>
+			<label index="button_edit_profile">Profil bearbeiten</label>
+			<label index="totamt_label">Gesamtsummer</label>
+			<label index="currency_label">Währung</label>
+			<label index="payopt_label">Bezahlmöglichkeiten</label>
+			<label index="onlinepay_label">Online Bezahlung</label>
+			<label index="offlinepay_label">Per Rechnung</label>
+			<label index="ipayment_presubmit_text">Bitte klicken Sie auf das ipayment-Logo um den Prozess fortzusetzen</label>
+			<label index="manualpayment_presubmit_text">Bei der Offline-Bezahlung können Sie durch Scheck oder Überweisung
+bezahlen.&lt;br&gt;&lt;br&gt;Bitte geben Sie hierbei die korrekte Bestellnummer an. Sie erhalten die
+Bestellnummer auf der folgenden Seite im Bestellformular.&lt;br&gt;&lt;br&gt;Im nächsten Schritt können Sie Ihre Rechnung herunterladen und drucken. Die Zahlungsdetails finden Sie ebenfalls auf der Rechnung.&lt;br&gt;&lt;br&gt;Die Lieferung erfolgt nach Erhalt der Zahlung.</label>
+			<label index="manualpayment_button_text">Jetzt kostenpflichtig bestellen</label>
+			<label index="header_overview">Übersicht</label>
+			
+			
+			<label index="CHECKOUT_HEADER">TRANSAKTION ERFOLGREICH</label>
+			<label index="CHECKOUT_THANKS_MESSAGE">Vielen Dank für Ihren Auftrag bei Dustri-Verlag.</label>
+			<label index="CHECKOUT_LINE1">Die Rechnung wurde an die Emailadresse %s verschickt.</label>
+			<label index="CHECKOUT_HEADLINE_ORDER_DETAILS">Auftragsdetails:</label>
+			<label index="CHECKOUT_INVOICE_NUMBER">Rechnungsnummer: </label>
+			<label index="CHECKOUT_CUSTOMER_NUMBER">Kundennummer: </label>
+			<label index="CHECKOUT_ORDER_DATE">Auftragsdatum: </label>
+			<label index="CHECKOUT_HEADLINE_CONTACT_OPT">Bei Fragen nehmen Sie bitte Kontakt mit uns auf: </label>
+			
+			
+			<label index="manual_header">MANUAL TRANSACTION SUCCESSFUL</label>
+			<label index="LOGGED_IN_MESSAGE">Sie sind momentan mit folgendem Nutzernamen einloggt</label>
+			<label index="PASSWORD_FORGOTTON">Kennwort vergessen?</label>
+			<label index="SEND_PASSWORD">Kennwort senden</label>
+			<label index="PASSWORD_FORGOTTON_MESSAGE">Bitte geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben. Anschließend klicken Sie auf "Kennwort senden" und Ihr Kennwort wird Ihnen umgehend zugesendet. Achten Sie auf die korrekte Schreibweise Ihrer E-Mail-Adresse.</label>
+			<label index="PASSWORD_FORGOTTON_RESULT_MESSAGE">Ihr Kennwort wurde nun an die E-Mail-Adresse</label>
+			<label index="LINK_TO_LOGIN">Zurück zum Anmeldeformular</label>
+			<label index="PASSWORD_FORGOTTEN_ERROR_MSG">You are not registered!</label>
+			<label index="FORGOT_PSWD_SUBJECT">Ihr Kennwort</label>
+			<label index="LOGGED_IN_SUB_MESSAGE1">Bitte loggen Sie sich im Hauptmenü aus und wieder ein um den Nutzer zu wechseln.</label>
+			<label index="LOGGED_IN_SUB_MESSAGE2">Bitte füllen Sie untenstehendes Formular aus um sich als neuer Nutzer zu registrieren.</label>
+			<label index="err_invalid_login">Ungültiger Login. Bitte versuchen Sie es noch einmal.</label>
+			<label index="err_invalid_email">Die angegebene E-Mail Addresse ist ungültig</label>
+			<label index="err_invalid_vat_id">Keine gültige europäische MwSt-ID</label>
+			<label index="err_user_exists">Falls Sie Ihr Passwort vergessen haben verwenden Sie bitte den "Passwort vergessen"-Link neben dem Login Formular</label>
+			
+			<label index="proforma_invoice_no">Proforma Invoice</label>
+			<label index="invoice_no">Rechnung</label>
+			<label index="date">Datum</label>
+			<label index="customer_id">Kunden-Nr.:</label>
+			<label index="customer_copy">Original</label>
+			<label index="page">Seite</label>
+			<label index="item_itle">Bezeichnunge</label>
+			<label index="item_single_price">Einzel- &lt;br&#47;&gt; Preis</label>
+			<label index="item_discount">Rabatt</label>
+			<label index="vat_incl">MWSt.</label>
+			<label index="item_total_price">Gesamt &lt;br&#47;&gt; Preis</label>
+			<label index="customer_vat_id">Kunden UST-ID.Nr.</label>
+			<label index="cash_discount">Auftragsrabatt</label>
+			<label index="vat_amount">Steuerl. Engelt</label>
+			<label index="vat_total">MWSt. (gesamt)</label>
+			<label index="total_amount">Gesamtbetrag</label>
+			<label index="delivery_message">Liefer- und Leistungsdatum entspricht dem Rechnungsdatum (bei Abonnements siehe oben)</label>
+			<label index="bank_account">Bankverbindung</label>
+			<label index="account_number">Kontonummer</label>
+			<label index="dustri_us_address"></label>			
+			<label index="dustri_german_address">&lt;u&gt;Dustri-Verlag Dr. Karl Feistle GmbH &amp; Co. KG&lt;&#47;u&gt;, UST-ID.Nr. DE 169 262 194, Sitz: Oberhaching Lkr. München, HRA 81557, Persönlich haft.&lt;br&gt;&lt;br&gt;Gesellschafter: Dustri-Verlag Dr. Karl Feistle Verwaltungs GmbH (AG München, HRB 146366) Geschäftsführer: Frank Feistle, Jörg Feistle</label>			
+			<label index="cart_shipping_label">Shipping by postal mail</label>
+			<label index="download_article">Artikel Download</label>
+			<label index="download_invoice">Herunterladen Rechnung</label>
+			<label index="download_invoice_text">Klicken Sie auf den Link unten an deine Rechnung downloaden</label>
+			<label index="login_details">Login-Daten</label>
+			<label index="contact_details">Kontaktdaten</label>
+			<label index="other_details">Andere Details</label>
+			<label index="enter_vat_code">Gültige europäische MwSt-ID</label>
+			<label index="doubleoptmsg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non magna aliquam, dignissim quam et, aliquet mi. Aenean non ipsum libero. Duis iaculis dictum lacus, vel rutrum tellus fermentum ac. Quisque imperdiet erat massa, sit amet iaculis nibh vulputate vitae. Suspendisse in lorem nulla. Quisque enim dui, semper ut rutrum sed, volutpat sed sapien. Proin pretium ornare aliquam. Proin vulputate velit eget turpis efficitur feugiat.</label>
+			<label index="doubleopt_email_subject">Dustri: Please verify your email.</label>
+			<label index="doubleopt_email_body">
+				<![CDATA[
+					Hello ###NAME###,
+    
+    Click this link to confirm your request to join the list:
+
+
+    ###VERIFY_LINK###
+
+    Clicking the link above will confirm your email address and allow you to receive the information you requested. If you cannot click on the link, please copy and paste it into your web browse.
+
+
+    If you did not request to be on this list, please ignore this message. We confirm addresses prior to adding them to our list to prevent forged or unwanted sign-ups.
+
+
+    Thank you,
+
+    
+  				]]>
+
+			</label>
+			<label index="emailvarified_msg">
+				<![CDATA[
+				<p>Thanks for verifing your email. Please click the below link to login.</p>
+				###LOGIN_LINK###
+			]]>
+			</label>
+			<label index="login_link_text">Click here for login</label>
+			<label index="email_confirm_subject">New Registration for Newsletter</label>
+			<label index="email_confirm_body">
+				<![CDATA[
+				<p>Hallo,</p>
+				<p>There is a new resigntration for newsletter subscriptions. Details are the following:</p>
+				###USER_DATA###
+				<p>Regards,<br/>
+					Dustri Team
+				</p>
+				]]>
+			</label>
+			<label index="name_label">Name</label>
+			<label index="email_label">Email</label>
+			<label index="newsletter_text">Zum Dustri-Newsletter anmelden</label>
+			<label index="vat_header">MWSt</label>
+			<label index="discount_header">Rabatt</label>
+			<label index="paypal_presubmit_text">Bitte klicken Sie auf das Paypal-Logo, um den Vorgang fortzusetzen</label>
+			<label index="card_payment_label">Kartenzahlung</label>
+		</languageKey>		
+	</data>
+</T3locallang>
